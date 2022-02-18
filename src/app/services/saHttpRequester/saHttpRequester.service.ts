@@ -103,6 +103,8 @@ export class SaHttpRequesterService {
 
   // 构造请求 Url
   buildRequestUrl(url: TRequestUrlPath): TRequestUrlPath {
+    console.log('api.API_ROOT: ', api.API_ROOT)
+    console.log('url: ', url)
     return `${api.API_ROOT}${url}`;
   }
 
