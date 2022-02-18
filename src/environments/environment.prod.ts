@@ -10,6 +10,6 @@ export const environment = {
 };
 
 export const api = {
-  API_ROOT: 'https://api.surmon.me',
+  API_ROOT: 'http:121.36.222.63:8000/',
   STATIC_URL: 'https://static.surmon.me'
 };
